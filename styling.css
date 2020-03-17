@@ -1,0 +1,127 @@
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: url('images/milky-way-2.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.meas-container {
+    background-color: rgba(236, 34, 202, 0.5);
+}
+
+.row {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.typing-icon img {
+    height: 50px;
+}
+
+.wpm-icon {
+    width: 60px;
+}
+
+.cpm-icon,
+.time-left-icon {
+    width: 45px;
+}
+
+.accuracy-icon {
+    width: 50px;
+}
+
+#content {
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px auto;
+    font-size: 30px;
+    overflow: hidden;
+    padding: 0 5px;
+    line-height: 40px;
+}
+
+.change {
+    height: 25px;
+    font-size: 16px;
+}
+
+#input {
+    background-color: rgba(239, 37, 188, 0.3);
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    color: #01e2b5;
+}
+
+.keyboard {
+    min-height: 200px;
+    max-height: 300px;
+    background: url('images/keyboard.jpeg') no-repeat center center;
+    background-size: contain;
+    margin-top: 15px;
+}
+
+.restart {
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.btn-primary {
+    background-color: rgba(236, 34, 202, 0.5);
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:hover {
+    background-color: rgba(236, 34, 202, 0.8);
+    text-decoration: none;
+}
+
+.modal-title,
+.modal-body {
+    color: #000;
+}
+
+.score-down,
+.score-up {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.score-down {
+    background-color: #c71585;
+}
+
+.score-up {
+    background-color: #adff2f;
+    color: #000;
+}
+
+.active-word {
+    background-color: #adff2f;
+    border-radius: 5px;
+}
+
+.correct-character {
+    color: #0000cd;
+}
+
+.wrong-character {
+    color: #c71585;
+}
+
+.img-result {
+    width: 300px;
+    height: 200px;
+}
+
+.text-result {
+    font-size: 20px;
+}
+
